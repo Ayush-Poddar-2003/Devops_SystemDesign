@@ -203,17 +203,6 @@ Replication Lag
 = Delay between primary and replicas
 ```
 
-# Most Important Terms
-
-```text
-1. Replication
-2. Read Replica
-3. Sharding
-4. Shard
-5. Shard Key
-6. Hotspot
-7. Replication Lag
-```
 
 # Real Project Understanding
 
@@ -232,25 +221,3 @@ Sharding
         ↓
 Multiple Databases
 ```
-
-### Senior Developer Translation
-
-If someone says:
-
-```text
-"We may need sharding."
-```
-
-They usually mean:
-
-> One database is becoming too large, so let's split data across multiple databases.
-
-If someone says:
-
-```text
-"Replication lag is causing stale data."
-```
-
-They mean:
-
-> The replica database has not yet received the latest updates from the primary database.
